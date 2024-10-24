@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  @apply bg-blue-500 text-white m-4 border-2 rounded;
+}
+
+@media (max-width: 620px) {
+  .form-fixed {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="style.css " />
+  </head>
+  <body>
+    <div
+      class="mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-32 xl:mx-52 sm:text-xl flex flex-wrap rounded-t border-2 border-black"
+    >
+      <!-- Quote -->
+      <div
+        class="bg-gradient-to-r from-sky-500 to-indigo-500 text-white h-24 flex items-center justify-center font-bold sm:text-xl rounded-t w-full"
+      >
+        News you can trust.
+      </div>
+
+      <!-- Author -->
+      <div class="text-center mt-4 w-full">
+        <h3 class="text-base sm:text-lg font-semibold">
+          Stay update for the latest!
+        </h3>
+        <p class="text-sm sm:text-base">
+          Subscribe to our newsletter for the latest news
+        </p>
+
+        <!-- Form -->
+        <form class="flex flex-col items-center w-full">
+          <input   
+            class="w-full sm:w-4/5 lg:w-1/2 bg-slate-200 text-center rounded placeholder:text-sm mt-4 py-2 625px:w-full"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+          />
+          <button
+            class="w-full sm:w-4/5 lg:w-1/2 bg-blue-500 text-white mt-4 py-2 rounded-full 625px:w-full"
+          >
+            Subscribe
+          </button>
+        </form>
+        <p class="mt-6 text-sm sm:text-md">we value your privacy</p>
+      </div>
+    </div>
+  </body>
+</html>
